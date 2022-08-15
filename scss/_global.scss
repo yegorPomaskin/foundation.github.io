@@ -1,0 +1,93 @@
+html{
+  box-sizing: border-box;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+ul, li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: $text;
+}
+button{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background: #3040C4;
+  background-image: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.00) 100%);
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.10), 0 4px 6px 0 rgba(0,0,0,0.05), inset 0 1px 0 0 rgba(255,255,255,0.10);
+  border-radius: 2px;
+  color: #fff;
+  padding: 15px 28px;
+  &:hover{
+    color: $blue;
+    background-color: #fff;
+  }
+}
+body{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: $text;
+  overflow-x: hidden;
+}
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.pretitle{
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.title{
+  font-size: 56px;
+  line-height: 56px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.figure {
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+.content{
+  max-width: 460px;
+}
+.link{
+  background-color: $blue;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 17px 28px;
+  font-weight: 700;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.10), 0 4px 6px 0 rgba(0,0,0,0.05), inset 0 1px 0 0 rgba(255,255,255,0.10);
+  border-radius: 2px;
+  transition: all .3s;
+  &:hover{
+    background-color: #fff;
+    color: $blue;
+  }
+}
+figure {
+  display: block;
+  text-align: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+

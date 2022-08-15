@@ -1,0 +1,556 @@
+@media (max-width: 1440px){
+  .top{
+    background-position: right bottom;
+  }
+  .features{
+    background-position: 140% 70%;
+  }
+}
+@media (max-width: 1400px){
+  .carousel__inner{
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 990px){
+  .top{
+    background-size: 60%;
+    background-position: right 80%;
+  }
+  .header__inner{
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .menu{
+    width: 100%;
+    order: 1;
+  }
+  .menu.menu--active{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  .menu{
+    transform: translateY(-300%);
+    opacity: 0;
+    width: 96%;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    top: 15%;
+    border-radius: 4px;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #fff;
+    transition: all .5s;
+    // transform: translateY(-460%);
+    &__list{
+      li{
+        height: 48px;
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+        padding-top: 10px;
+      }
+    }
+  }
+  .header__link{
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto 10px;
+  }
+}
+@media (max-width: 973px){
+  .trial__form-btn{
+    margin-top: 15px;
+    max-width: 385px;
+    width: 100%;
+  }
+}
+@media (max-width: 926px){
+  .carousel__inner{
+    padding-bottom: 350px;
+    &::after{
+      right: calc(50% - 150px);
+      bottom: 50px;
+    }
+  }
+  .brands__inner{
+    flex-wrap: wrap;
+    padding: 0 0 66px;
+  }
+  .brands__item{
+    flex: 1 0 33%;
+    text-align: center;
+    margin-top: auto;
+    border: 1px solid #E3E3E3;
+    height: 140px;
+  }
+}
+@media (max-width: 875px){
+  .direction__item-1{
+    padding: 30px 0;
+    display: block;
+    .direction__item-img{
+      display: none;
+      figcaption{
+        display: none;
+      }
+    }
+    .direction__content{
+      margin-left: 0;
+      max-width: 100%;
+    }
+    .feedback{
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 95%;
+    }
+  }
+  .feedback{
+    padding: 30px 20px;
+  }
+}
+@media (max-width: 835px){
+  .footer__social{
+    border-top: 0 solid #000;
+  }
+  .footer__inner{
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer__col-foundation{
+    position: relative;
+    padding-bottom: 40px;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    &::after{
+      left: -15%;
+      bottom: 0;
+      content: '';
+      position: absolute;
+      width: 120%;
+      height: 1px;
+      background-color: #E3E3E3
+    }
+    .footer__text{
+      display: none;
+    }
+    .logo{
+      display: block;
+      img{
+        margin-right: 0;
+      }
+    }
+  }
+  .footer__inner{
+    padding: 40px 0 0;
+  }
+  .trial__inner{
+    padding: 50px 0;
+    display: block;
+    text-align: center;
+  }
+  .trial__content{
+    max-width: 100%;
+  }
+  .trial__form{
+    max-width: 555px;
+    margin: 0 auto;
+  }
+  .trial__text{
+    max-width: 450px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .trial__form-btn{
+    margin-bottom: 15px;
+  }
+  .trial__img{
+    margin-right: 0;
+  }
+  .hiring__inner,
+  .audience__inner{
+    padding: 50px 0;
+  }
+  .communication__inner{
+    padding: 30px 0;
+  }
+  .communication__box{
+    display: block;
+  }
+  .communication__content{
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+  .communication__box-img{
+    padding-bottom: 40px;
+  }
+  .communication__box::after{
+    width: 30%;
+  }
+  .communication__items{
+    display: block;
+    text-align: left;
+  }
+  .communication__item{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+    & + .communication__item{
+      margin-left: 0;
+    }
+  }
+  .about__brands-img{
+    margin-top: auto;
+  }
+  .top{
+    height: auto;
+    background-position: center bottom;
+    padding-bottom: 215px;
+  }
+}
+@media (max-width: 810px){
+  .audience__items{
+    flex-wrap: wrap;
+  }
+  .audience__item{
+    width: 48%;
+    margin-bottom: 15px;
+  }
+  .audience__item + .audience__item{
+    margin-left: 0px;
+  }
+  .about__inner{
+    flex-direction: column;
+  }
+  .about__item-title{
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .about__item-text{
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .about__item{
+    max-width: 290px;
+  }
+}
+@media (max-width: 790px){
+  .audience__items{
+    margin-top: 60px;
+  }
+  .features{
+    &::after{
+      background-image: none;
+    }
+    .features__content{
+      max-width: 100%;
+    }
+  }
+}
+@media (max-width: 690px){
+  .hiring__items{
+    margin-top: 57px;
+  }
+  .hiring__item-title{
+    max-width: 200px;
+  }
+  .hiring__item{
+    display: block;
+    text-align: left;
+    padding: 19px 20px 19px 20px;
+    height: 150px;
+    &::after{
+      border-radius: 0 8px 8px 0;
+      right: -1px;
+      background-color: #D5D4D5;
+      top: 0px;
+      background-size: 7px 12px;
+      width: 50px;
+      height: 148px;
+    }
+    &:hover{
+      background-color: white;
+    }
+  }
+  .hiring__item-ocupation{
+    max-width: 270px;
+    width: 100%;
+  }
+  .hiring__item-title{
+    margin-bottom: 7px;
+  }
+  .top{
+    padding: 35px 0 235px;
+    background-size: 320px;
+  }
+  .top__title{
+    font-size: 62px;
+    line-height: 62px;
+    max-width: 550px;
+  }
+}
+@media (max-width: 590px){
+  .footer__col{
+    max-width: 100%;
+    width: 100%;
+    display: block;
+  }
+  .footer__col.company{
+    margin-top: 40px;
+  }
+  .footer__menu{
+    margin-bottom: 30px;
+    & + .footer__menu{
+      margin-top: 65px;
+    }
+  }
+  .footer__list{
+    li{
+      &:last-child{
+        padding-bottom: 40px;
+      }
+    }
+  }
+  .footer__social-inner{
+    flex-wrap: wrap;
+  }
+  .footer__social-menu{
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 31px;
+  }
+}
+@media (max-width: 524px){
+  
+  .brands__inner{
+    padding: 0 0 49px;
+  }
+  .audience__item{
+    width: 100%;
+  }
+  .audience__link{
+    margin-left: 0;
+    margin-top: 12px;
+  }
+  .direction__item-1 .feedback{
+    max-width: 520px;
+    margin-left: 0;
+  }
+  .direction__content{
+    max-width: 460px;
+  }
+  .communication__box::after{
+    width: 50%;
+  }
+  .about{
+    padding: 46px 0;
+  }
+  .brands__inner{
+    padding: 0 0 46px;
+  }
+  .features__inner{
+    padding: 30px 0 46px;
+  }
+  .header{
+    padding: 39px 0 0;
+  }
+  .top__title, .title{
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .top__text, .text{
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .top__link,
+  .top__btn, 
+  .link{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .top__btn{
+    margin-bottom: 15px;
+  }
+  .top__link{
+    margin-left: 0;
+  }
+  .brands__item{
+    height: 94px;
+    width: 100%;
+    padding: 0 15px
+  }
+  .brands__item.mashsable,
+  .brands__item.forbes,
+  .brands__item.nytimes{
+    background-size: 66%;
+  }
+  .brands__item.wsj{
+    background-size: 60%;
+  }
+  .brands__item.google{
+    background-size: 80%;
+  }
+}
+@media(max-width: 481px){
+  .header__inner{
+    .logo__subtitle{
+      display: none;
+    }
+  }
+  .trial__title,
+  .trial__text{
+    display: none;
+  }
+  .trial__text.mobile,
+  .trial__title.mobile{
+    display: block;
+    text-align: left;
+    max-width: 290px;
+    margin: 0 auto;
+  }
+  .trial__title.mobile{
+    margin-bottom: 18px;
+  }
+  .trial__text.mobile{
+    margin-bottom: 40px;
+  }
+  .trial__message{
+    max-width: 290px;
+    margin: 0 auto;
+  }
+  .carousel__inner{
+    text-align: left;
+    &::after{
+      right: calc(50% - 140px);
+    }
+  }
+  .slick-dots{
+    text-align: center;
+  }
+  .communication__box-img{
+    img{
+      max-width: 425px;
+      width: 100%;
+      height: auto;
+    }
+  }
+  .direction__item-1{
+    .direction__item-img{
+      display: block;
+      img{
+        max-width: 525px;
+        width: 100%;
+        height: auto;
+      }
+    }  
+  } 
+  .title{
+    font-size: 40px;
+    line-height: 40px;
+    max-width: 290px;
+  }   
+  .direction__text{
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 30px;
+  }
+  .feedback__text{
+    width: 320px;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0 auto 30px;
+  }
+  .features{
+    display: none;
+  }
+  .direction__title{
+    font-size: 38px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    max-width: 300px;
+  }
+}
+@media (max-width: 410px){
+  .brands__item.mashsable,
+  .brands__item.forbes,
+  .brands__item.nytimes{
+    background-size: 90%;
+  }
+}
+@media (max-width: 380px){
+  .header__inner{
+    .logo__img{
+      margin-right: 5px;
+    }
+  }
+}
+@media (max-width: 376px){
+  .feedback__text{
+    width: 250px;
+    margin: 0 auto 30px;
+  }
+}
+
+@media (min-width: 481px){
+  .mobile{
+    display: none;
+  }
+}
+@media (min-width: 691px){
+  .hiring__item{
+    &:hover{
+      background-color: #3141C5;
+      &:after{
+        background-image: url('../images/arrow.svg');
+      }
+      .hiring__item-title{
+        color: #fff;
+      }
+      .hiring__item-ocupation{
+        color: #fff;
+      }
+    }
+  }
+}
+@media (min-width: 990px){
+  .container-fluid{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .menu__btn{
+    display: none;
+  }
+  .features::after{
+    left: 45%;
+  }
+}
+@media (min-width: 1200px){
+  .features::after{
+    max-width: 1080px;
+    left: 44%;
+    top: -10px;
+  }
+}
+@media (min-width: 1400px){
+  .carousel__inner::after{
+    right: -120px;
+  }
+}
+@media (min-width: 2000px){
+  .features::after{
+    left: 50%;
+    z-index: 1;
+    max-width: 1080px;
+  }
+  .features__items{
+    z-index: 10;
+  }
+}
